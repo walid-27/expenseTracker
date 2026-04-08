@@ -1,0 +1,40 @@
+.tb{
+    margin-top: 9rem;
+    padding: 30px;
+    
+}
+h1{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+table{  
+    width: 100%;
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+.act{
+    background-color: #e4e6eb;
+}
+.act th{
+    padding-right: 10px;
+    margin: 15px;
+    color: #2563EB;
+    font-size: 22px;
+}
+tbody{
+  
+    font-size: 20px;
+    background-color: #2563EB;
+    
+}
+tbody tr{
+    padding: 10px;
+}
+tbody tr td{
+    
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}

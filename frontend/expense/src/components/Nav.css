@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+.NavBar{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 19px rgba(0, 0, 0, 0.445);
+    position:fixed;
+    z-index: 3233;
+}
+
+.NavBar h1{
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
+}
+ul{
+    display: flex;
+}
+li{
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: 0.01s ease;
+}
+li:hover{
+    border-bottom: 0.01rem solid black;
+}
+
+
+.account_prop{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 19px rgba(0, 0, 0, 0.445);
+}
+.account_prop li{
+    padding: 5px;
+}

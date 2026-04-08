@@ -1,0 +1,28 @@
+.boxDash{
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #E5E7EB;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.445);
+    display: flex;
+    justify-content: space-between;
+}
+.boxDash span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #2563EB;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border: 4px solid #2563EB;
+}
+.boxDash h3{
+    color: #2563EB;
+    font-weight: 600;
+    font-size: 26px;
+}
