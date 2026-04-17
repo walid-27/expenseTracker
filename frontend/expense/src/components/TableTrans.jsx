@@ -45,10 +45,11 @@ useEffect(() => {
       <td>{new Date(expense.date).toISOString().split("T")[0]}</td>
       <td>${expense.amount}</td>
       <td>{expense.category}</td>
-      <td>{expense.note}</td>
+      <td>{expense.note?expense.note : "/"} </td>
       <td>Cash</td>
       <td>
-        <button>Edit</button>
+        <button>Edit </button>
+        <span>/</span> 
         <button>Delete</button>
       </td>
     </tr>

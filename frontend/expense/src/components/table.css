@@ -9,10 +9,12 @@ h1{
 }
 table{  
     width: 100%;
+    border: 1px solid;
 }
 tr{
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid    #2563EB;
 }
 .act{
     background-color: #e4e6eb;
@@ -22,19 +24,26 @@ tr{
     margin: 15px;
     color: #2563EB;
     font-size: 22px;
+    
 }
 tbody{
   
     font-size: 20px;
-    background-color: #2563EB;
+    
     
 }
 tbody tr{
-    padding: 10px;
+    
+    
+    border-bottom: 1px solid black;
 }
 tbody tr td{
-    
+    border-right: 1px solid black;
     width: 100%;
     padding: 10px;
     position: relative;
+}
+button{
+    padding: 1px;
+    cursor: pointer;
 }

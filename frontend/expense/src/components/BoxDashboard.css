@@ -20,9 +20,52 @@
     background-color: white;
     border-radius: 10px;
     border: 4px solid #2563EB;
+    cursor: pointer;
 }
 .boxDash h3{
     color: #2563EB;
     font-weight: 600;
     font-size: 26px;
+}
+
+.budget_rem_form{
+    width: 40%;
+    height: 40vh;
+    background-color: #2564ebc5;
+    position: absolute;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    left: 25%;
+    
+}
+.budget_rem_form input{
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 999999;
+}
+.budget_rem_form button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.budget_rem_form h3{
+    position: relative;
+    right: 40%;
+    background-color: white;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 800;
+    border-radius: 50%;
 }
